@@ -53,5 +53,6 @@
 }
 .container .wrapper .week .date #sat, #blank{
     background-color: rgba(128, 128, 128, 0.392);
+    border: none;
 }
 
