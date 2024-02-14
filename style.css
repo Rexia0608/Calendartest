@@ -1,58 +1,57 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+body *{
+    outline: 1px solid blue;
+    /* padding: 0;
+    margin: 0; */
 }
-.container{
-    margin: 25px;
-    padding: 15px;
+div.container{
+    width: 980px;
+    min-height: 800px;
+    background-color: red;
+    margin: 0px auto;
 }
-.container header{
-    min-width: 1200;
+div.container div.top{
+    min-height: 100px;
+    background-color: green;
 }
-.container header .calendar{
-    padding: 25px;
-    margin: 30px;
+div.container div.top div.logo{
+     width: 300px;
+     display: inline-block;
 }
-.container header .calendar .picture{
+div.container div.top ul{
     display: inline-block;
-}
-.container header .calendar .picture img{
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 300px;
-    height: 120px;
-}
-.container header .calendar .picture h1{
-    font-size: 50px;
-    margin: 0px 400px 0px 500px;
-}
-.container .wrapper{
-    /* background-color: red; */
-    padding: 9px;
-}
-.container .wrapper .week .date{
+} 
+div.container div.top ul li{
     display: inline-block;
+    font-size: 24px;
+    padding: 10px;
+}
+div.container h1{
+    text-align: center;
+}
+div.container div.bottom{
+    min-height: 400px;
+    background-color: yellow;
+}
+div.container div.bottom div.message{
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    margin: 5px;
+    min-height: 300px;
+    padding: 10px;
+    text-align: center;
+}
+div.container div.message div.image{
+    height: 80px;
+}
+div.container div.bottom div.message a{
+    display: block;
+    background-color: orange;
+    padding: 10px;
     border: 1px solid black;
-    width: 200px;
-    height: 50px;
-    margin-left: 50px ;
-    margin-bottom: 25px;
-    padding-top: 20px;
+    color: white;
+    text-decoration: none;
 }
-.container .wrapper .week .date span{
-    padding-left: 72px;
-    font-size: 40px;
-    font-weight: bold;
+#message :nth-child(5){
+    margin-top: 35px;
 }
-.container .wrapper .week .date #sat, #sun{
-    background-color: rgba(0, 0, 255, 0.585);
-}
-.container .wrapper .week .date #sun, #sat{
-    background-color: rgba(55, 164, 8, 0.568);
-}
-.container .wrapper .week .date #sat, #blank{
-    background-color: rgba(128, 128, 128, 0.392);
-    border: none;
-}
-
