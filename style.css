@@ -48,7 +48,7 @@
 .container .wrapper .week .date #sat, #sun{
     background-color: rgba(0, 0, 255, 0.585);
 }
-.container .wrapper .week .date #sat, #sat{
+.container .wrapper .week .date #sun, #sat{
     background-color: rgba(55, 164, 8, 0.568);
 }
 .container .wrapper .week .date #sat, #blank{
